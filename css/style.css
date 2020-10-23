@@ -1,0 +1,24 @@
+.navbtn {
+    margin: 8px;
+    padding: 3px 3px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button a :hover {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+button {
+    height: auto;
+    box-shadow: -3px 3px 8px;
+    z-index: 100;
+}
+
+input[text] {
+    width: 150px;
+}
