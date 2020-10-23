@@ -28,5 +28,7 @@ database.
 
 7. Setup is complete.
 --------------------------------------------------------------------------
+This project is not complete. I am working on it.
+--------------------------------------------------------------------------
 Now enjoy using this project.
 Regards.
