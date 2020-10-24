@@ -15,8 +15,14 @@ if ($conn) {
         echo "
             <script>
             window.alert('Welcome: $user_details[2]');
-            window.location.href = 'user_home.php';
-            </script>;";
+            </script>";
+        if ($user_details[4] == 'admin') {
+            echo "<script>
+                window.location.href = 'admin.php';
+                </script>";
+        } else {
+            echo "<script>window.location.href = 'user_home.php'; </script>;";
+        }
     } else {
         echo "<script>window.alert('Invalid username or password.');
             window.location.href = 'login.php';

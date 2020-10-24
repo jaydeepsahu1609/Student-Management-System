@@ -1,0 +1,17 @@
+.bgimage {
+    background-image: url(https://i.pinimg.com/originals/ef/5e/77/ef5e7744972471820c3b70f1c8ccc6c8.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: sticky;
+    z-index: 100;
+    background-size: cover;
+}
+
+.loginbox {
+    max-width: 400px;
+    max-height: 400px;
+    margin: 35px auto;
+    padding: 25px 5px;
+    box-shadow: 1px 0px 15px;
+    z-index: 100;
+}

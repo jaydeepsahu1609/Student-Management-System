@@ -8,16 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
-    <style>
-        .loginbox {
-            max-width: 400px;
-            max-height: 400px;
-            margin: 35px auto;
-            padding: 25px 5px;
-            box-shadow: 1px 0px 15px;
-            z-index: 100;
-        }
-    </style>
+    <link href="css/login_style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -25,7 +16,7 @@
     include_once("header.php");
     ?>
     <script src="js/bootstrap.min.js" type="text/js"></script>
-    <div class="container-lg text-center loginbox">
+    <div class="container-lg text-center loginbox" style="margin:40px auto;">
         <div class="row">
             <div class="col-lg-12 col-md-10 col-sm-10">
                 <div class="container form-signin">
@@ -37,7 +28,7 @@
                                 </h1>
                             </div>
                         </div>
-                        <div class="row form-group">
+                        <div class="row form-group" stle="margin:15px auto;">
                             <div class="col-lg-12 col-sm-10">
                                 <input type="text" name="username" class="form-control" maxlength="25" placeholder="Username" style="margin-bottom:5px;" autocomplete=off required>
                                 <input type="password" name="password" class="form-control" maxlength="25" placeholder="****************" autocomplete=off required>

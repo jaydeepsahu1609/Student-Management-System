@@ -8,11 +8,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
+    
 </head>
 
 <body>
     <?php
-    include_once("header.php");
+    include_once("header_library.php");
     ?>
     <div class="alert alert-danger alert-dismissible">
         Fill the following details carefully and press submit.
@@ -61,6 +62,7 @@
                         <option value="student" selected>STUDENT</option>
                         <option value="teacher">TEACHER</option>
                         <option value="incharge">LIBRARY-INCHARGE</option>
+                        <option value="admin">ADMIN</option>
                     </select>
                 </div>
             </div>

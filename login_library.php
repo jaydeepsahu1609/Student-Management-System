@@ -8,16 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
-    <style>
-        .loginbox {
-            max-width: 400px;
-            max-height: 400px;
-            margin: 35px auto;
-            padding: 25px 5px;
-            box-shadow: 1px 0px 15px;
-            z-index: 100;
-        }
-    </style>
+    <link href="css/login_style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -25,35 +16,43 @@
     include_once("header_library.php");
     ?>
     <script src="js/bootstrap.min.js" type="text/js"></script>
-    <div class="container-lg text-center loginbox">
+    <div class="container-fluid bgimage">
         <div class="row">
-            <div class="col-lg-12 col-md-10 col-sm-10">
-                <div class="container form-signin">
-                    <form action="login_action_library.php" method="post">
-                        <div class="row">
-                            <div class="col-lg-12 text-center">
-                                <h1>
-                                    Login Here
-                                </h1>
+            <div class="col-12">
+                <div class="container-lg text-center loginbox bg-white">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-10 col-sm-10">
+                            <div class="container form-signin">
+                                <form action="login_action_library.php" method="post">
+                                    <div class="row">
+                                        <div class="col-lg-12 text-center">
+                                            <h1>
+                                                Login Here
+                                            </h1>
+                                        </div>
+                                    </div>
+                                    <div class="row form-group">
+                                        <div class="col-lg-12 col-sm-10">
+                                            <input type="text" name="username" class="form-control" maxlength="25" placeholder="Username" style="margin-bottom:5px;" required>
+                                            <input type="password" name="password" class="form-control" maxlength="25" placeholder="****************" autocomplete=off required>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-12 col-sm-10 text-center">
+                                            <input type="submit" class="button btn-success form-control text-lg-center" value="LOG-IN">
+                                        </div>
+                                    </div>
+                                </form>
                             </div>
                         </div>
-                        <div class="row form-group">
-                            <div class="col-lg-12 col-sm-10">
-                                <input type="text" name="username" class="form-control" maxlength="25" placeholder="Username" style="margin-bottom:5px;" required>
-                                <input type="password" name="password" class="form-control" maxlength="25" placeholder="****************" autocomplete=off required>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-12 col-sm-10 text-center">
-                                <input type="submit" class="button btn-success form-control text-lg-center" value="LOG-IN">
-                            </div>
-                        </div>
-                    </form>
+                    </div>
+
                 </div>
             </div>
         </div>
 
     </div>
+
     <?php
     include_once("footer.php");
     ?>

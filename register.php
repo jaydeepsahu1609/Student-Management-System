@@ -60,6 +60,7 @@
                         <select class="form-control" name="user_type">
                             <option value="student" selected>STUDENT</option>
                             <option value="teacher">TEACHER</option>
+                            <option value="admin">ADMIN</option>
                         </select>
                 </div>
             </div>

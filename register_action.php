@@ -4,7 +4,7 @@ $name = $_POST['fullname'];
 $pwd = $_POST['password'];
 $repwd = $_POST['confirm_password'];
 $user_type = $_POST['user_type'];
-if (strlen($usr) < 5 || strlen($pwd) < 5) {
+if (strlen($usr) <= 5 || strlen($pwd) <= 5) {
     echo "
         <script>
         window.alert('Username or password is too small.[minimum 8 characters]');

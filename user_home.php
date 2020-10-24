@@ -5,6 +5,8 @@ if (isset($_SESSION['username'])) {
     $fullname = $_SESSION['fullname'];
     $user_type = $_SESSION['user_type'];
 ?>
+
+
     <!DOCTYPE html>
     <html lang="en">
 
@@ -22,28 +24,38 @@ if (isset($_SESSION['username'])) {
             <div class="row bg-dark text-light text-right font-weight-bolder">
                 <div class="col-lg-12">
                     <?php
-                    echo $usrname.'&nbsp;['.$user_type.']';
+                    echo $usrname . '&nbsp;[' . $user_type . ']';
                     ?>
                     <a href="logout.php"><button class="btn-info">logout</button></a>
                 </div>
             </div>
         </div>
         <div class="container">
-            <div class="jumbotron lg text-center font-weight-bolder">
-                <p>
-                    Hello <?php echo $fullname; ?>
-                </p>
+            <div class="row">
+                <div class="col-12">
+                    <div class="jumbotron lg text-center font-weight-bolder">
+                        <p>
+                            Hello <?php echo $fullname; ?>
+                        </p>
+                    </div>
+                </div>
             </div>
-        </div>
 
+        </div>
+        <?php
+        include_once('footer.php');
+        ?>
 
         <script src="js/bootstrap.min.js" type="text/js"></script>
     </body>
 
     </html>
+
+
+
 <?php
 } else {
-    echo "<script>window.alert('User not logged in. Invalid Access.');
+    echo "<script>
         window.location.href='login.php';
         </script>
         ";
