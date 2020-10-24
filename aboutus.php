@@ -8,55 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
-    <style>
-        a {
-            text-decoration: none;
-            color: inherit;
-        }
-
-        a:hover {
-            color: aquamarine;
-        }
-
-        .followme {
-            padding: 8px 2px 2px;
-            font-size: 18px;
-        }
-
-        .content {
-            text-align: left;
-            color: darkcyan;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            font-size: 23px;
-            line-height: 3px;
-            padding-left: 10px;
-        }
-
-        @media only screen and (max-width: 768px) {
-            .followme {
-
-                padding: 2px;
-                margin-bottom: 5px;
-                margin-left: 5px;
-                margin-right: 5px;
-            }
-
-            .addBorder {
-                border: 1px solid white;
-            }
-        }
-
-        @media only screen and (min-width:768px) {
-            .rows_distance {
-                margin-top: 35px;
-                margin-bottom: 50px;
-            }
-
-            hr {
-                margin: 15px 0;
-            }
-        }
-    </style>
+    <link href="css/aboutus_style.css" rel="stylesheet" type="text/css">
 
 </head>
 
@@ -67,7 +19,6 @@
 
     <div class="container-fluid rows_distance">
         <div class="row">
-            <!-- <div class="col-12"> -->
             <div class="panel-group">
                 <div class="panel panel-info">
                     <div class="panel-heading  bg-warning text-white text-center font-weight-bolder" style="font-size:25px;">
