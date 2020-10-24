@@ -5,7 +5,7 @@ CREATED BY:- JAYDEEP SAHU
 -------------------------------------------------------------------------
 
 1. MAKE SURE YOU HAVE INSTALLED WAMP/LAMP/XAMP on your system.
-If you have not installed it, then download it from:-
+If you don't have any of these on your system, then download it from:-
 WAMPSERVER:-https://www.wampserver.com/en/
 LAMPSERVER:-https://bitnami.com/stack/lamp/installer
 XAMPSERVER:-https://www.apachefriends.org/download.html
