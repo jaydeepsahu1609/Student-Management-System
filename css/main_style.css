@@ -1,0 +1,29 @@
+body {
+    background-image: url('../images/bg.jpg');
+    /* background-image: url(https://www.dnnsoftware.com/Portals/0/Images/hero-background-4-1.jpg?ver=2017-08-17-190903-737); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.navbtn {
+    color: white;
+}
+
+.navbtn :hover {
+    color: pink;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.a:hover {
+    color: none;
+}
+
+input[text] {
+    width: 150px;
+}

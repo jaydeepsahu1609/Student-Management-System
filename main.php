@@ -1,5 +1,5 @@
   <!-- banner type jumbotron, shows Features  -->
-  <div class="jumbotron justify-content-xl-center bg-secondary text-light text-xl-left">
+  <div class="jumbotron justify-content-xl-center text-light bg-transparent text-xl-left" style="box-shadow:0 0 25px purple;">
       <h3>Student Management System</h3>
       <p>
           <ul>
@@ -26,10 +26,11 @@
               </li>
           </ul>
       </p>
+
   </div>
 
-  <div class="container-fluid text-center">
-      <div class="row bg-info text-center text-light">
+  <div class="container-fluid bg-transparent" style="box-shadow:0 0 25px purple; background-blend-mode: difference;">
+      <div class="row text-center">
           <div class="col-lg-4">
               <h2>asbsdsjfkf</h2>
               <p>idnfidjnfsdfndjff</p>
@@ -42,6 +43,19 @@
               <h2>sdhjvv</h2>
               <p>sbnvdvdnvsdd</p>
           </div>
-
+      </div>
+      <div class="row text-center">
+          <div class="col-lg-4">
+              <h2>asbsdsjfkf</h2>
+              <p>idnfidjnfsdfndjff</p>
+          </div>
+          <div class="col-lg-4">
+              <h2>ijfndsinfdsf</h2>
+              <p>sdhvssdsjv vsv</p>
+          </div>
+          <div class="col-lg-4">
+              <h2>sdhjvv</h2>
+              <p>sbnvdvdnvsdd</p>
+          </div>
       </div>
   </div>
