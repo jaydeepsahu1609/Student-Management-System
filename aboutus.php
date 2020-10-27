@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"="width=device-width, initial-scale=1.0">
     <title>ABOUT US::cms.com</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -21,17 +21,17 @@
         <div class="row">
             <div class="panel-group">
                 <div class="panel panel-info">
-                    <div class="panel-heading  bg-warning text-white text-center font-weight-bolder" style="font-size:25px;">
-                        Know Our Develpers
+                    <div class="panel-heading  content text-white text-center font-weight-bolder">
+                        <u> Know Our Develpers</u>
                     </div>
                     <div class="panel-body">
-                        <div class="row" style="margin-top:10px;">
+                        <div class="row">
                             <div class="col-lg-4 col-md-4 col-sm-10 text-center">
                                 <img src="images/jds.jpeg" alt="Jaydeep Sahu" class="img-thumbnail img-responsive img-fluid h-100 w-50">
                             </div>
-                            <div class="col-lg-8 col-md-8 col-sm-10" title="Jaydeep Sahu">
+                            <div class="col-lg-8 col-md-8 col-sm-10 dev_details" title="Jaydeep Sahu">
                                 <h2>Jaydeep Sahu</h2>
-                                <p class="content">
+                                <p>
                                     <ul>
                                         <li>
                                             Philomath || Programmer || Quick-Learner
@@ -52,20 +52,20 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="row" title="Follow Jaydeep">
-                            <div class="container text-center text-light bg-secondary followme">
+                        <div class="row " title="Follow Jaydeep">
+                            <div class="container text-center text-light  followme">
                                 <div class="row">
-                                    <div class="col-lg-4 addBorder">
+                                    <div class="col-lg-4">
                                         <a href="https://www.facebook.com/jaydeep.sahu.7543" target="_blank" rel="noopener noreferrer">
                                             <p>FACEBOOK</p>
                                         </a>
                                     </div>
-                                    <div class="col-lg-4 addBorder">
+                                    <div class="col-lg-4">
                                         <a href="https://www.linkedin.com/in/jaydeep-sahu-0b8951177/" target="_blank" rel="noopener noreferrer">
                                             <p>LINKED-IN</p>
                                         </a>
                                     </div>
-                                    <div class="col-lg-4 addBorder">
+                                    <div class="col-lg-4">
                                         <a href="https://www.instagram.com/___jaydeep.sahu/?hl=en" target="_blank" rel="noopener noreferrer">
                                             <p>INSTAGRAM</p>
                                         </a>
@@ -75,13 +75,13 @@
                         </div>
 
                         <hr>
-                        <div class="row">
+                        <div class="row ">
                             <div class="col-lg-4 col-md-4 col-sm-10 text-center">
                                 <img src="images/kds.jpg" alt="Kuldeep Sahu" class="img-thumbnail img-responsive rounded-circle img-fluid h-100 w-50">
                             </div>
-                            <div class="col-lg-8 col-md-8 col-sm-10" title="Kuldeep Sahu">
+                            <div class="col-lg-8  col-md-8 col-sm-10 dev_details" title="Kuldeep Sahu">
                                 <h2>Kuldeep Sahu</h2>
-                                <p class="content">
+                                <p>
                                     <ul>
                                         <li>
                                             Software Engineer at Impetus Technologies Indore
@@ -105,20 +105,20 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="row" title="Follow Kuldeep">
-                            <div class="container text-center text-light bg-secondary followme">
+                        <div class="row " title="Follow Kuldeep">
+                            <div class="container text-center text-light  followme">
                                 <div class="row">
-                                    <div class="col-lg-4 addBorder">
+                                    <div class="col-lg-4">
                                         <a href="https://www.facebook.com/kuldeep.sahu.9256" target="_blank" rel="noopener noreferrer">
                                             <p>FACEBOOK</p>
                                         </a>
                                     </div>
-                                    <div class="col-lg-4 addBorder">
+                                    <div class="col-lg-4">
                                         <a href="https://www.linkedin.com/in/kuldeep-sahu-0511/" target="_blank" rel="noopener noreferrer">
                                             <p>LINKED-IN</p>
                                         </a>
                                     </div>
-                                    <div class="col-lg-4 addBorder">
+                                    <div class="col-lg-4">
                                         <a href="https://www.instagram.com/kuldeep_sahu1105/?hl=en" target="_blank" rel="noopener noreferrer">
                                             <p>INSTAGRAM</p>
                                         </a>
@@ -129,13 +129,13 @@
                     </div>
                 </div>
                 <hr>
-                <div class="panel panel-primary">
-                    <div class="panel-heading  bg-warning text-white text-center font-weight-bolder" style="font-size:25px;">
-                        Our Project: STUDENT MANAGEMENT SYSTEM
+                <div class="panel panel-primary ">
+                    <div class="panel-heading  text-white text-center font-weight-bolder content" style="font-size:25px;">
+                        <u> Our Project: STUDENT MANAGEMENT SYSTEM</u>
                     </div>
                     <div class="panel-body">
                         <div class="row">
-                            <div class="container container-lg">
+                            <div class="container container-lg dev_details">
                                 <div class="col-lg-12 text-justified font-weight-bold font-italic text-lg-left text-md-left text-sm-center">
                                     <p>
                                         This project has been made as a project to practise Full-Stack Web Development.
@@ -202,7 +202,7 @@
                                     <p>
                                         The Source-code of this project has been made publicly available by the developers
                                         in the following git-repositery.
-                                        <p class="alert alert-secondary text-center font-italic">
+                                        <p class="alert alert-success text-center font-italic">
                                             Click <strong><a herf="https://github.com/jaydeepsahu1609" class="alert-link" target="_blank" title="Click here to see the source-code on Github" style="cursor:auto;">here</a> </strong> see the Source Code.
                                         </p>
                                         Dont forget to star if you like the project. You are free to use/modify source to create your own project.
@@ -217,10 +217,9 @@
                         </div>
                     </div>
                 </div>
-                <!-- </div> -->
             </div>
         </div>
-
+    </div>
         <?php
         include_once("footer.php");
         ?>

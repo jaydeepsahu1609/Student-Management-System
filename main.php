@@ -1,5 +1,5 @@
   <!-- banner type jumbotron, shows Features  -->
-  <div class="jumbotron justify-content-xl-center text-light bg-transparent text-xl-left" style="box-shadow:0 0 25px purple;">
+  <div class="jumbotron justify-content-xl-center text-light bg-transparent text-xl-left" style="box-shadow:0 0 20px purple;">
       <h3>Student Management System</h3>
       <p>
           <ul>
@@ -29,7 +29,7 @@
 
   </div>
 
-  <div class="container-fluid bg-transparent" style="box-shadow:0 0 25px purple; background-blend-mode: difference;">
+  <div class="container-fluid bg-transparent" style="margin:20px auto; box-shadow:0 0 25px purple; background-blend-mode: difference;">
       <div class="row text-center">
           <div class="col-lg-4">
               <h2>asbsdsjfkf</h2>

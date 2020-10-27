@@ -14,13 +14,13 @@
     <?php
     include_once("header.php");
     ?>
-    <div class="alert alert-danger alert-dismissible">
+    <div class="alert alert-danger alert-dismissible" style="margin:10px 5px;">
         Fill the following details carefully and press submit.
         <a href="#" class="close" data-dismiss="alert">&times;</a>
     </div>
     <div class="container text-light" style="box-sizing:border-box;">
         <form action="register_action.php" method="post">
-            <div class=" row form-group" style="box-sizing:border-box;" >
+            <div class=" row form-group" style="box-sizing:border-box;">
                 <div class="col-lg-2 col-sm-10 col-md-2">
                     <label for="username" class="text-left  ">USERNAME</label>
                 </div>
@@ -49,36 +49,36 @@
                     <label for="confirm_password" class="text-left">RE-ENTER PASSWORD</label>
                 </div>
                 <div class=" col-lg-10 col-md-10 col-sm-10">
-                        <input type="password" name="confirm_password" class="form-control text-dark text-left" maxlength="25" required>
+                    <input type="password" name="confirm_password" class="form-control text-dark text-left" maxlength="25" required>
                 </div>
             </div>
-            <div class="row form-group"  style="box-sizing:border-box;">
+            <div class="row form-group" style="box-sizing:border-box;">
                 <div class="col-lg-2 col-sm-10 col-md-2">
                     <label for="user_type" class="text-left">I AM A</label>
                 </div>
                 <div class=" col-lg-10 col-md-10 col-sm-10" required>
-                        <select class="form-control" name="user_type">
-                            <option value="student" selected>STUDENT</option>
-                            <option value="teacher">TEACHER</option>
-                            <option value="admin">ADMIN</option>
-                        </select>
+                    <select class="form-control" name="user_type">
+                        <option value="student" selected>STUDENT</option>
+                        <option value="teacher">TEACHER</option>
+                        <option value="admin">ADMIN</option>
+                    </select>
                 </div>
             </div>
             <div class="row" style="box-sizing:border-box;">
                 <div class="col-lg-6">
-                    <button type="submit" class="form-control bg-success text-light">SUBMIT</button>
+                    <button type="submit" class="form-control bg-success border-0 text-light">SUBMIT</button>
                 </div>
                 <div class="col-lg-6">
-                    <button type="reset" class="form-control bg-danger text-light">RESET</button>
+                    <button type="reset" class="form-control bg-danger border-0  text-light">RESET</button>
                 </div>
             </div>
             <div class="row text-left" style="box-sizing:border-box;">
-            <div class="col-lg-12 col-md-10 col-sm-10">
-                Already have an Account? <a href="login.php" style="color:blue; text-decoration:underline;">Click</a> here
+                <div class="col-lg-12 col-md-10 col-sm-10">
+                    Already have an Account? <a href="login.php" style="color:blue; text-decoration:underline;">Click</a> here
+                </div>
             </div>
-        </div>
         </form>
-        
+
     </div>
 
     </div>

@@ -20,7 +20,7 @@
     include_once("header_library.php");
     ?>
 
-    <div class="jumbotron text-left bg-transparent text-white" style="box-shadow:0 0 25px purple;">
+    <div class="jumbotron text-left bg-transparent text-white" style="box-shadow:0 0 20px purple;">
         <h3>Library Management System</h3>
         <p>
             <ul>
@@ -48,9 +48,9 @@
             </ul>
         </p>
     </div>
-    <div class="container" style="margin:4px auto;">
+    <div class="container" style="margin:50px auto;">
         <div class="row text-center font-weight-bolder">
-            <div class="col-lg-5 col-sm-5 col-md-5 text-white" style="margin:2px auto;  box-shadow:0 0 25px purple;">
+            <div class="col-lg-5 col-sm-5 col-md-5 text-white" style="margin:20px auto;  box-shadow:0 0 25px purple;">
                 <h2>
                     I HAVE AN ACCOUNT
                 </h2>
@@ -59,7 +59,7 @@
                     <a href="login_library.php" title="I want to login">LOGIN here</a>
                 </h4>
             </div>
-            <div class="col-lg-5 col-sm-5  col-md-5 text-white" style="margin:2px auto;  box-shadow:0 0 25px purple;">
+            <div class="col-lg-5 col-sm-5  col-md-5 text-white" style="margin:20px auto;  box-shadow:0 0 25px purple;">
                 <h2>
                     I DON'T HAVE ANY ACCOUNT
                 </h2>
