@@ -1,6 +1,6 @@
 <header>
     <!-- header  -->
-    <div class="container-fluid  text-left text-light page-header" style="margin-bottom:2px;">
+    <div class="container-fluid  text-left text-light page-header">
         <div class="row">
             <div class="col-xl-8 col-sm-10 col-md-12 text-sm-left text-lg-center text-md-center" >
                 <h2>
@@ -15,6 +15,7 @@
                 <a href="aboutus.php"><button class="btn btn-lg navbtn" title="Know about our devel">About US</button></a>
             </div>
         </div>
+        <hr>
     </div>
     <!-- space for navigation bar [Future] -->
 
