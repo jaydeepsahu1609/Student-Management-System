@@ -10,7 +10,7 @@ WAMPSERVER:-https://www.wampserver.com/en/
 LAMPSERVER:-https://bitnami.com/stack/lamp/installer
 XAMPSERVER:-https://www.apachefriends.org/download.html
 
-2. Now place the folder 'cms' inside www directory.
+2. Now place all these files in a folder 'cms' inside www directory.
 
 3. Go to your browser, and type 'LOCALHOST' in the address-bar. This
 will open the localhost window for your server.
