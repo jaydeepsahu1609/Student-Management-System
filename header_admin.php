@@ -1,10 +1,24 @@
-<div class="container-fluid">
-    <div class="row bg-info text-dark text-right font-weight-bolder">
-        <div class="col-lg-12">
+
+<nav class="navbar navbar-inverse" aria-label="admin menu">
+    <div class="container-fluid">
+        <div class="navbar-header">
             <?php
             echo $usrname . '&nbsp;[' . $user_type . ']';
             ?>
-            <a href="logout.php"><button class="btn btn-sm">logout</button></a>
         </div>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1
+                    <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Page 1-1</a></li>
+                    <li><a href="#">Page 1-2</a></li>
+                    <li><a href="#">Page 1-3</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Page 2</a></li>
+            <li><a href="#">Page 3</a></li>
+        </ul>
     </div>
-</div>
+</nav>

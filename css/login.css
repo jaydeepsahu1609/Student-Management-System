@@ -1,0 +1,58 @@
+/* itim font  */
+
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+/* Comic Neue font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+
+/* satisy font  */
+
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Satisfy&display=swap');
+:root {
+    --font-content: 'Comic Neue', cursive;
+    --font-menu: 'Itim', cursive;
+    --font-logo: 'Satisfy', cursive;
+}
+
+
+/* universal styling  */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* :focus {
+    border: none;
+}
+
+.bgimage {
+    background-image: url(https://i.pinimg.com/originals/ef/5e/77/ef5e7744972471820c3b70f1c8ccc6c8.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: sticky;
+    z-index: 100;
+    background-size: cover;
+}
+
+.loginbox {
+    max-width: 400px;
+    max-height: 400px;
+    margin: 35px auto;
+    padding: 25px 5px;
+    box-shadow: 1px 0px 15px;
+    z-index: 100;
+}
+
+.regis-box {
+    display: flex;
+    font-family: var(--font-content);
+    flex-direction: column;
+    align-self: center;
+    padding: 60px;
+}
+
+.regis-box-items {
+    font-size: 30px;
+}

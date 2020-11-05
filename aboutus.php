@@ -29,7 +29,7 @@
                             <div class="col-lg-4 col-md-4 col-sm-10 text-center">
                                 <img src="images/jds.jpeg" alt="Jaydeep Sahu" class="img-thumbnail img-responsive img-fluid h-100 w-50">
                             </div>
-                            <div class="col-lg-8 col-md-8 col-sm-10 dev_details" title="Jaydeep Sahu">
+                            <div class="col-lg-8 col-md-8 col-sm-10 dev_details sms-content" title="Jaydeep Sahu">
                                 <h2>Jaydeep Sahu</h2>
                                 <p>
                                     <ul>
@@ -79,7 +79,7 @@
                             <div class="col-lg-4 col-md-4 col-sm-10 text-center">
                                 <img src="images/kds.jpg" alt="Kuldeep Sahu" class="img-thumbnail img-responsive rounded-circle img-fluid h-100 w-50">
                             </div>
-                            <div class="col-lg-8  col-md-8 col-sm-10 dev_details" title="Kuldeep Sahu">
+                            <div class="col-lg-8  col-md-8 col-sm-10 dev_details sms-content" title="Kuldeep Sahu">
                                 <h2>Kuldeep Sahu</h2>
                                 <p>
                                     <ul>
@@ -135,7 +135,7 @@
                     </div>
                     <div class="panel-body">
                         <div class="row">
-                            <div class="container container-lg dev_details">
+                            <div class="container container-lg sms-content">
                                 <div class="col-lg-12 text-justified font-weight-bold font-italic text-lg-left text-md-left text-sm-center">
                                     <p>
                                         This project has been made as a project to practise Full-Stack Web Development.

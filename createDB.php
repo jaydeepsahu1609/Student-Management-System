@@ -10,6 +10,7 @@
     <title>Database setup</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="main_style.css" type="text/css">
 </head>
 
 <body>
@@ -69,6 +70,15 @@
             } else {
                 echo "Table 'login' has been created succesfully in the database.<hr>";
             }
+
+            //create table 'request'  
+            $ctdbq = "CREATE TABLE request (id int(4) PRIMARY KEY AUTO_INCREMENT, username VARCHAR(25) UNIQUE, fullname VARCHAR(45), password VARCHAR(25), user_type VARCHAR(20));";
+            $r = mysqli_query($conn, $ctdbq);
+            if (!$r) {
+                echo "ERROR:" . mysqli_error($conn) . "<hr>";
+            } else {
+                echo "Table 'request' has been created succesfully in the database.<hr>";
+            }
         } else {
             echo "
             <script>
@@ -78,6 +88,11 @@
         }
         ?>
     </main>
+    <footer>
+        <?php 
+        include_once('footer.php');
+        ?>
+    </footer>
 
 </body>
 

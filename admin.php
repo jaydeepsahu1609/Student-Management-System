@@ -13,16 +13,26 @@ if (isset($_SESSION['username']) && $_SESSION['user_type'] == 'admin') {
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>ADMIN::<?php echo $usrname; ?></title>
-
+        <title>ADMIN :: <?php echo $usrname; ?></title>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <!-- <link href="css/main_style.css" rel="stylesheet" type="text/css"> -->
+        <link rel="stylesheet" href="css/admin.css" type="text/css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     </head>
 
     <body>
-        <?php
-        include_once('header_admin.php');
-        ?>
+        <header>
+            <?php
+            include_once('header_admin.php');
+            ?>
+        </header>
+
+        <!-- navigation temporary -->
+
+
+        <!-- main-content  -->
         <div class="container-fluid text-center bg-warning text-white">
             <div class="row">
                 <div class="col-12">
@@ -37,6 +47,7 @@ if (isset($_SESSION['username']) && $_SESSION['user_type'] == 'admin') {
                         <h3>STUDENT MANAGEMENT</h3>
                         <hr>
                         <p><a href="admin_login.php">SHOW USER DETAILS</a></p>
+                        <p><a href="reuest_login.php">REGISTRATION REQUESTS</a></p>
                     </div>
 
                 </div>
@@ -45,6 +56,7 @@ if (isset($_SESSION['username']) && $_SESSION['user_type'] == 'admin') {
                         <h3>LIBRARY MANAGEMENT</h3>
                         <hr>
                         <p><a href="admin_library.php">SHOW USER DETAILS</a></p>
+                        <p><a href="request_library.php">REGISTRATION REQUESTS</a></p>
                     </div>
 
                 </div>

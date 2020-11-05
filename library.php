@@ -5,12 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Library::Studentportal.com</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link href="css/main_style.css" rel="stylesheet" type="text/css">
     <style>
         a:hover {
-            color:inherit;
+            color: inherit;
         }
     </style>
 </head>
@@ -20,33 +22,47 @@
     include_once("header_library.php");
     ?>
 
-    <div class="jumbotron text-left bg-transparent text-white" style="box-shadow:0 0 20px purple;">
-        <h3>Library Management System</h3>
-        <p>
-            <ul>
-                <li>
-                    Create a library account
-                </li>
-                <li>
-                    Manage Transaction(incharge)
-                </li>
-                <li>
-                    View and submit Fine
-                </li>
-                <li>
-                    View issued books with due dates
-                </li>
-                <li>
-                    Access virtual-library
-                </li>
-                <li>
-                    Search availabilty of books
-                </li>
-                <li>
-                    And many more features to come........
-                </li>
-            </ul>
-        </p>
+    <div class="jumbotron text-left bg-transparent text-white sms-jumbo" style="box-shadow:0 0 20px purple;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 sms-jumbo-left sms-content">
+                    <h3>Library Management System</h3>
+                    <p>
+                        <ul>
+                            <li>
+                                Create a library account
+                            </li>
+                            <li>
+                                Manage Transaction(incharge)
+                            </li>
+                            <li>
+                                View and submit Fine
+                            </li>
+                            <li>
+                                View issued books with due dates
+                            </li>
+                            <li>
+                                Access virtual-library
+                            </li>
+                            <li>
+                                Search availabilty of books
+                            </li>
+                            <li>
+                                And many more features to come........
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="col-lg-4 sms-jumbo-right">
+
+                    <img src="images/lms.jpg" class=" sms-jumbo-img" alt="lms-image">
+
+                    <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS7gG8t13NbjFm9olxkmfDHaIZJ9-4C1jMXRw&usqp=CAU sms-jumbo-img" alt="lms-image"> -->
+
+                </div>
+            </div>
+        </div>
+
     </div>
     <div class="container" style="margin:50px auto;">
         <div class="row text-center font-weight-bolder">

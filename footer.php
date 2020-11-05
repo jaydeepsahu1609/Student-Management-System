@@ -1,13 +1,12 @@
 <footer>
-    <hr>
+
     <!-- footer-menu -->
     <div class="container-fluid text-white-50">
         <div class="row">
             <div class="col-lg-6 col-sm-5">
-                <div class="container">
+                <div class="container-fluid">
                     <div class="row">
-                        <div class="col-lg-4">
-
+                        <div class="col-lg-4 footer-link">
                             <ul class="list-unstyled">
                                 <li><a href="index.php" target="_blank" rel="noopener noreferrer">Home</a></li>
                                 <li><a href="aboutus.php" target="_blank" rel="noopener noreferrer">About us</a></li>
@@ -16,41 +15,34 @@
                                 <li><a href="https://github.com/jaydeepsahu1609" target="_blank" rel="noopener noreferrer">View our souce code</a></li>
                             </ul>
                         </div>
-                        <div class="col-lg-4">
-                            <div class="container">
-                                <div class="row">
-                                    <ul class="list-unstyled">
-                                        <li><a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">Google</a></li>
-                                        <li><a href="https://www.wikipedia.org/" target="_blank" rel="noopener noreferrer">Wikipedia</a></li>
-                                        <li><a href="https://github.com/" target="_blank" rel="noopener noreferrer">Github</a></li>
-                                        <li><a href="https://www.vlab.co.in/" target="_blank" rel="noopener noreferrer">Virtual Labs</a></li>
-                                        <li><a href="https://ndl.iitkgp.ac.in/" target="_blank" rel="noopener noreferrer">National Digital Library</a></li>
-                                    </ul>
-                                </div>
-                            </div>
+                        <div class="col-lg-4 footer-link">
+                            <ul class="list-unstyled">
+                                <li><a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">Google</a></li>
+                                <li><a href="https://www.wikipedia.org/" target="_blank" rel="noopener noreferrer">Wikipedia</a></li>
+                                <li><a href="https://github.com/" target="_blank" rel="noopener noreferrer">Github</a></li>
+                                <li><a href="https://www.vlab.co.in/" target="_blank" rel="noopener noreferrer">Virtual Labs</a></li>
+                                <li><a href="https://ndl.iitkgp.ac.in/" target="_blank" rel="noopener noreferrer">National Digital Library</a></li>
+                            </ul>
                         </div>
-                        <div class="col-lg-4">
-                            <div class="container">
-                                <div class="row">
-                                    <ul class="list-unstyled">
-                                        <li><a href="https://www.pdfdrive.com/" target="_blank" rel="noopener noreferrer">PDFdrive</a></li>
-                                        <li><a href="https://spoken-tutorial.org/" target="_blank" rel="noopener noreferrer">Spoken Tutorial</a></li>
-                                        <li><a href="https://www.javatpoint.com/" target="_blank" rel="noopener noreferrer">javatpoint</a></li>
-                                        <li><a href="https://www.tutorialspoint.com/index.htm" target="_blank" rel="noopener noreferrer">tutorialspoint</a></li>
-                                        <li><a href="https://www.w3schools.com/" target="_blank" rel="noopener noreferrer">w3schools</a></li>
-                                    </ul>
-                                </div>
-                            </div>
+                        <div class="col-lg-4 footer-link" style="border-right:none">
+                            <ul class="list-unstyled">
+                                <li><a href="https://www.pdfdrive.com/" target="_blank" rel="noopener noreferrer">PDFdrive</a></li>
+                                <li><a href="https://spoken-tutorial.org/" target="_blank" rel="noopener noreferrer">Spoken Tutorial</a></li>
+                                <li><a href="https://www.javatpoint.com/" target="_blank" rel="noopener noreferrer">javatpoint</a></li>
+                                <li><a href="https://www.tutorialspoint.com/index.htm" target="_blank" rel="noopener noreferrer">tutorialspoint</a></li>
+                                <li><a href="https://www.w3schools.com/" target="_blank" rel="noopener noreferrer">w3schools</a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
+
             <div class="col-lg-6 col-sm-5">
-                <div class="container" style="box-shadow:0 0 5px darkslateblue;">
+                <div class="container-fluid">
                     <div class="row">
                         <div class="col-lg-6">
-                            <h5>FOLLOW JAYDEEP SAHU</h5>
-                            <ul>
+                            <h3 class="text-dark">FOLLOW JAYDEEP</h3>
+                            <ul class="list-unstyled">
                                 <li>
                                     <a href="https://www.facebook.com/jaydeep.sahu.7543" target="_blank" rel="noopener noreferrer">FACEBOOK</a>
                                 </li>
@@ -62,8 +54,8 @@
                             </ul>
                         </div>
                         <div class="col-lg-6">
-                            <h5>FOLLOW KULDEEP SAHU</h5>
-                            <ul>
+                            <h3 class="text-dark">FOLLOW KULDEEP</h3>
+                            <ul class="list-unstyled">
                                 <li>
                                     <a href="https://www.facebook.com/kuldeep.sahu.9256" target="_blank" rel="noopener noreferrer">FACEBOOK</a>
                                 </li>
