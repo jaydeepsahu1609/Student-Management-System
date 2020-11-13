@@ -86,10 +86,10 @@
 
                         <div class="row text-center">
                             <div class="col-lg-6 col-sm-5 col-md-5">
-                                <button type="submit" class="form-control bg-success border-0 text-light">SUBMIT</button>
+                                <button type="submit" class="form-control bg-success border-0 text-light btn-lg">SUBMIT</button>
                             </div>
                             <div class="col-lg-6 col-sm-5 col-md-5">
-                                <button type="reset" class="form-control bg-danger border-0  text-light ">RESET</button>
+                                <button type="reset" class="form-control bg-danger border-0  text-light btn-lg">RESET</button>
                             </div>
 
                         </div>

@@ -23,7 +23,7 @@
     padding: 0;
 }
 
-* :focus {
+*:focus {
     border: none;
 }
 
@@ -41,6 +41,10 @@ a button :hover {
     background-color: white;
 }
 
+a button:focus {
+    border: none;
+}
+
 body {
     /* background-image: url('../images/bg.jpg'); */
     background-image: linear-gradient(120deg, cornflowerblue, darkcyan, lightslategrey);
@@ -51,19 +55,25 @@ body {
     z-index: 10;
 }
 
+
+/* 
+//commented for aboutus testing
 header {
-    margin: 15px;
+    margin: 5px auto;
     box-sizing: border-box;
     background: transparent;
-    position: sticky;
-}
+    overflow-x: hidden;
+} */
 
 .sms-logo {
     font-family: var(--font-logo);
+    font-size: 20px;
 }
 
 .sms-menu {
     font-family: var(--font-menu);
+    font-size: 20px;
+    z-index: 10;
 }
 
 footer {
@@ -84,12 +94,19 @@ footer {
     border-right-width: 2px;
 }
 
-.navbtn {
-    color: white;
+.socialmedia {
+    width: 30px;
+    height: 30px;
+    margin: 0px;
 }
 
-.navbtn :hover {
-    color: pink;
+.socialmedia:hover {
+    border-radius: 10px;
+    box-shadow: 0 0 20px lightblue;
+}
+
+.navbtn {
+    color: white;
 }
 
 .sms-jumbo {
@@ -127,11 +144,13 @@ footer {
 /* -------------------------------small screen---------------------------------------------------------------- */
 
 @media only screen and (max-width:992px) {
-    header {
-        margin: 25px auto;
+    /* header {
+        //commented for aboutus testing
+        margin: 2px 1px;
         align-items: center;
-        display: flex;
-    }
+    display: flex;
+    justify-content: space-between;
+    } */
     .sms-logo {
         font-size: 10px;
         margin: 0 auto;

@@ -24,8 +24,9 @@
 
     <div class="jumbotron text-left bg-transparent text-white sms-jumbo" style="box-shadow:0 0 20px purple;">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-8 sms-jumbo-left sms-content">
+            <div class="row media">
+
+                <div class="col-lg-8 sms-jumbo-left sms-content media-body">
                     <h3>Library Management System</h3>
                     <p>
                         <ul>
@@ -53,7 +54,7 @@
                         </ul>
                     </p>
                 </div>
-                <div class="col-lg-4 sms-jumbo-right">
+                <div class="col-lg-4 sms-jumbo-right media-right">
 
                     <img src="images/lms.jpg" class=" sms-jumbo-img" alt="lms-image">
 

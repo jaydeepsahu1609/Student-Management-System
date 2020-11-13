@@ -3,7 +3,7 @@
     <!-- footer-menu -->
     <div class="container-fluid text-white-50">
         <div class="row">
-            <div class="col-lg-6 col-sm-5">
+            <div class="col-lg-8 col-sm-5">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-lg-4 footer-link">
@@ -37,39 +37,43 @@
                 </div>
             </div>
 
-            <div class="col-lg-6 col-sm-5">
+            <div class="col-lg-4 col-sm-5">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-lg-6">
-                            <h3 class="text-dark">FOLLOW JAYDEEP</h3>
-                            <ul class="list-unstyled">
-                                <li>
-                                    <a href="https://www.facebook.com/jaydeep.sahu.7543" target="_blank" rel="noopener noreferrer">FACEBOOK</a>
+                            <h3 class="text-dark text-lg-center text-sm-left">FOLLOW JAYDEEP</h3>
+                            <ul class="list-group list-group-horizontal list-unstyled">
+                                <li class="list-group-item bg-transparent border-0">
+                                    <a href="https://www.facebook.com/jaydeep.sahu.7543" target="_blank" rel="noopener noreferrer"><span class="glyphicon"><img src="images/facebook.svg" alt="fb logo" class="socialmedia"></span></a>
                                 </li>
-                                <li>
-                                    <a href="https://www.linkedin.com/in/jaydeep-sahu-0b8951177/" target="_blank" rel="noopener noreferrer">LINKED-IN</a>
+                                <li class="list-group-item bg-transparent border-0">
+                                    <a href="https://www.linkedin.com/in/jaydeep-sahu-0b8951177/" target="_blank" rel="noopener noreferrer"><span class="glyphicon"><img src="images/linkedin.svg" alt="linkedin logo" class="socialmedia"></span></a>
                                 </li>
-                                <li><a href="https://www.instagram.com/___jaydeep.sahu/?hl=en" target="_blank" rel="noopener noreferrer">INSTAGRAM</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-6">
-                            <h3 class="text-dark">FOLLOW KULDEEP</h3>
-                            <ul class="list-unstyled">
-                                <li>
-                                    <a href="https://www.facebook.com/kuldeep.sahu.9256" target="_blank" rel="noopener noreferrer">FACEBOOK</a>
-                                </li>
-                                <li>
-                                    <a href="https://www.linkedin.com/in/kuldeep-sahu-0511/" target="_blank" rel="noopener noreferrer">LINKED-IN</a>
-                                </li>
-                                <li><a href="https://www.instagram.com/kuldeep_sahu1105/?hl=en" target="_blank" rel="noopener noreferrer">INSTAGRAM</a>
+                                <li class="list-group-item bg-transparent border-0">
+                                    <a href="https://www.instagram.com/___jaydeep.sahu/?hl=en" target="_blank" rel="noopener noreferrer"><span class="glyphicon"><img src="images/instagram.svg" alt="insta logo" class="socialmedia"></span></a>
                                 </li>
                             </ul>
                         </div>
+                    <!-- </div> -->
+                    <!-- <div class="row"></div> -->
+                    <div class="col-lg-6">
+                        <h3 class="text-dark tex-lg-center text-sm-left">FOLLOW KULDEEP</h3>
+                        <ul class="list-group list-group-horizontal list-unstyled">
+                            <li class="list-group-item bg-transparent border-0">
+                                <a href="https://www.facebook.com/kuldeep.sahu.9256" target="_blank" rel="noopener noreferrer"><span class="glyphicon"><img src="images/facebook.svg" alt="fb logo" class="socialmedia"></span></a>
+                            </li>
+                            <li class="list-group-item bg-transparent border-0">
+                                <a href="https://www.linkedin.com/in/kuldeep-sahu-0511/" target="_blank" rel="noopener noreferrer"><span class="glyphicon"><img src="images/linkedin.svg" alt="linkedin logo" class="socialmedia"></span></a>
+                            </li>
+                            <li class="list-group-item bg-transparent border-0">
+                                <a href="https://www.instagram.com/kuldeep_sahu1105/?hl=en" target="_blank" rel="noopener noreferrer"><span class="glyphicon"><img src="images/instagram.svg" alt="insta logo" class="socialmedia"></span></a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
 
     <!-- copyright-section goes here -->
