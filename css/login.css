@@ -27,6 +27,11 @@
     border: none;
 }
 
+main {
+    overflow: hidden;
+    z-index: 10;
+}
+
 .bgimage {
     background-image: url(https://i.pinimg.com/originals/ef/5e/77/ef5e7744972471820c3b70f1c8ccc6c8.jpg);
     background-repeat: no-repeat;
@@ -50,9 +55,14 @@
     font-family: var(--font-content);
     flex-direction: column;
     align-self: center;
-    padding: 60px;
+    border: 2px groove rgb(84, 182, 238);
+    border-radius: 5px;
+    margin: 20px;
+    box-sizing: border-box;
 }
 
 .regis-box-items {
     font-size: 18px;
+    padding: 0px 50px;
+    margin: 20px 5px;
 }

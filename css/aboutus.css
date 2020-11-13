@@ -16,10 +16,6 @@ a {
     color: inherit;
 }
 
-a:hover {
-    color: aquamarine;
-}
-
 .followme {
     margin-top: 5px;
     padding: 8px 2px 2px;
@@ -32,24 +28,3 @@ a:hover {
     font-size: 20px;
     margin: 10px auto;
 }
-
-
-/* 
-@media only screen and (max-width: 768px) {
-    .followme {
-        padding: 2px;
-        margin-bottom: 5px;
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-}
-
-@media only screen and (min-width:768px) {
-    .rows_distance {
-        margin-top: 35px;
-        margin-bottom: 50px;
-    }
-    hr {
-        margin: 15px 0;
-    }
-} */

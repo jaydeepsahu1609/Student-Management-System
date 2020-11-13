@@ -22,7 +22,7 @@
         <!-- know our developers section starts here -->
         <div class="panel bg-transparent">
             <div class="panel-heading bg-transparent">
-                <div class="panel-title text-warning text-center font-weight-bolder">
+                <div class="panel-title text-warning text-center font-weight-bolder" style="font-size:25px; text-decoration: underline; text-decoration-color: inherit;">
                     Know Our Develpers
                 </div>
             </div>
@@ -150,7 +150,7 @@
         <!-- know our project section starts here -->
         <div class="panel bg-transparent">
             <div class="panel-heading bg-transparent">
-                <div class="panel-title text-warning text-center font-weight-bolder">
+                <div class="panel-title text-warning text-center font-weight-bolder" style="font-size:25px; text-decoration: underline; text-decoration-color: inherit;">
                     Our Project: STUDENT MANAGEMENT SYSTEM
                 </div>
             </div>
@@ -238,7 +238,7 @@
                                                 </p>
                                                 Dont forget to star if you like the project. You are free to use/modify source to create your own project.
                                                 <br>
-                                                <blockquote>
+                                                <blockquote style="margin-top:10px;">
                                                     <h4>Cheers</h4>
                                                     <cite>Jaydeep Sahu, Kuldeep Sahu</cite>
                                                 </blockquote>
