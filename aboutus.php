@@ -20,23 +20,25 @@
     <main>
 
         <!-- know our developers section starts here -->
-        <div class="panel bg-transparent">
-            <div class="panel-heading bg-transparent">
-                <div class="panel-title text-warning text-center font-weight-bolder" style="font-size:25px; text-decoration: underline; text-decoration-color: inherit;">
-                    Know Our Develpers
+        <div class="panel bg-transparent developer-box">
+            <div class="panel-heading  bg-info">
+                <div class="panel-title text-dark font-weight-bolder section-heading">
+                    <span class="glyphicon text-right"><img src="images/developer_glyph.svg" alt="developer icon" class="w-25 h-25 developer_glyph"></span>
+                    <span class="text-left">Know Our Develpers
+                    </span>
                 </div>
             </div>
-            <div class="panel-body bg-transparent">
+            <div class="panel-body">
                 <div class="panel-group" id="accordion">
-                    <div class="panel panel-default  bg-transparent">
-                        <div class="panel-heading  bg-transparent">
+                    <div class="panel panel-default bg-info">
+                        <div class="panel-heading  bg-secondary ">
                             <h4 class="panel-title content">
                                 <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" title="click to see more about jaydeep">
                                     JAYDEEP SAHU
                                 </a>
                             </h4>
                         </div>
-                        <div id="collapse1" class="panel-collapse collapse out">
+                        <div id="collapse1" class="panel-collapse collapse out  bg-dark text-light">
                             <div class="panel-body">
                                 <div class="container-fluid">
                                     <div class="row">
@@ -85,14 +87,14 @@
                     </div>
 
                     <div class="panel panel-default bg-transparent">
-                        <div class="panel-heading bg-transparent">
+                        <div class="panel-heading   bg-secondary">
                             <h4 class="panel-title content">
                                 <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" title="click to see more about kuldeep">
                                     KULDEEP SAHU
                                 </a>
                             </h4>
                         </div>
-                        <div id="collapse2" class="panel-collapse collapse out">
+                        <div id="collapse2" class="panel-collapse collapse out  bg-dark text-light">
                             <div class="panel-body">
                                 <div class="container-fluid">
                                     <div class="row">
@@ -148,16 +150,18 @@
         <!-- know our developers section ends here -->
 
         <!-- know our project section starts here -->
-        <div class="panel bg-transparent">
-            <div class="panel-heading bg-transparent">
-                <div class="panel-title text-warning text-center font-weight-bolder" style="font-size:25px; text-decoration: underline; text-decoration-color: inherit;">
-                    Our Project: STUDENT MANAGEMENT SYSTEM
+        <div class="panel bg-transparent project-box">
+            <div class="panel-heading bg-info">
+                <div class="panel-title text-dark  font-weight-bolder section-heading">
+                    <span class="glyphicon text-right"><img src="images/ourproject.svg" alt="project icon" class="w-25 h-25 developer_glyph"></span>
+                    <span class="text-left">Our Project: STUDENT MANAGEMENT SYSTEM
+                    </span>
                 </div>
             </div>
-            <div class="panel-body bg-transparent">
+            <div class="panel-body">
                 <div class="panel-group" id="accordion2">
-                    <div class="panel panel-default  bg-transparent">
-                        <div class="panel-heading  bg-transparent">
+                    <div class="panel panel-default">
+                        <div class="panel-heading  bg-secondary">
                             <h4 class="panel-title content">
                                 <p>
                                     This project has been made as a project to practise Full-Stack Web Development.
@@ -165,10 +169,10 @@
                                     Database Management has been done with MySQL.
                                 </p>
                                 <a data-toggle="collapse" data-parent="#accordion2" href="#collapse3" style="text-decoration:underline; font-size:15px;">
-                                    SEE MORE</a>
+                                    SEE LESS</a>
                             </h4>
                         </div>
-                        <div id="collapse3" class="panel-collapse collapse">
+                        <div id="collapse3" class="panel-collapse collapse in bg-dark text-light">
                             <div class="panel-body">
                                 <div class="container-fluid">
                                     <div class="row">
@@ -256,6 +260,7 @@
     </main>
     <?php
     include_once("footer.php");
+    echo '<html><div class="text-white-50">All Iconc are made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com></a></div></html>';
     ?>
     <script src="js/bootstrap.min.js" type="text/js"></script>
 </body>

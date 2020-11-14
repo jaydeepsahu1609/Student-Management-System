@@ -34,7 +34,7 @@
                         <form action="request_action.php" method="post">
 
                             <div class=" row form-group">
-                                <div class="col-lg-4 col-sm-10 col-md-2">
+                                <div class="col-lg-4 col-sm-10 col-md-2 text-left">
                                     <label for="username" class="control-label text-left  ">USERNAME</label>
                                 </div>
                                 <div class="col-lg-8 col-md-10 col-sm-10">
@@ -43,7 +43,7 @@
                             </div>
 
                             <div class=" row form-group">
-                                <div class="col-lg-4 col-sm-10 col-md-2">
+                                <div class="col-lg-4 col-sm-10 col-md-2 text-left">
                                     <label for="fullname" class="control-label text-left">FULL NAME</label>
                                 </div>
                                 <div class="col-lg-8 col-md-10 col-sm-10">
@@ -52,7 +52,7 @@
                             </div>
 
                             <div class="row form-group">
-                                <div class="col-lg-4 col-sm-10 col-md-2">
+                                <div class="col-lg-4 col-sm-10 col-md-2 text-left">
                                     <label for="password" class="control-label text-left">PASSWORD</label>
                                 </div>
                                 <div class=" col-lg-8 col-md-10 col-sm-10">
@@ -61,7 +61,7 @@
                             </div>
 
                             <div class="row form-group">
-                                <div class="col-lg-4 col-sm-10 col-md-2">
+                                <div class="col-lg-4 col-sm-10 col-md-2 text-left">
                                     <label for="confirm_password" class="control-label text-left">RE-ENTER PASSWORD</label>
                                 </div>
                                 <div class=" col-lg-8 col-md-10 col-sm-10">
@@ -70,7 +70,7 @@
                             </div>
 
                             <div class="row form-group">
-                                <div class="col-lg-4 col-sm-10 col-md-2">
+                                <div class="col-lg-4 col-sm-10 col-md-2 text-left">
                                     <label for="user_type" class="control-label text-left">I AM A</label>
                                 </div>
                                 <div class=" col-lg-8 col-md-10 col-sm-10 " required>

@@ -51,13 +51,12 @@ main {
 }
 
 .regis-box {
+    margin-top: 100px;
+    margin-bottom: 125px;
     display: flex;
     font-family: var(--font-content);
     flex-direction: column;
     align-self: center;
-    border: 2px groove rgb(84, 182, 238);
-    border-radius: 5px;
-    margin: 20px;
     box-sizing: border-box;
 }
 
