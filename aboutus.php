@@ -23,8 +23,11 @@
         <div class="panel bg-transparent developer-box">
             <div class="panel-heading  bg-info">
                 <div class="panel-title text-dark font-weight-bolder section-heading">
-                    <span class="glyphicon text-right"><img src="images/developer_glyph.svg" alt="developer icon" class="w-25 h-25 developer_glyph"></span>
-                    <span class="text-left">Know Our Develpers
+                    <span class="section-heading-left text-center  glyphicon">
+                        <img src="images/developer_glyph.svg" alt="developer icon" class="w-75 h-75  rounded-bottom">
+                    </span>
+                    <span class="section-heading-right  text-center">
+                        Know Our Develpers
                     </span>
                 </div>
             </div>
@@ -153,8 +156,11 @@
         <div class="panel bg-transparent project-box">
             <div class="panel-heading bg-info">
                 <div class="panel-title text-dark  font-weight-bolder section-heading">
-                    <span class="glyphicon text-right"><img src="images/ourproject.svg" alt="project icon" class="w-25 h-25 developer_glyph"></span>
-                    <span class="text-left">Our Project: STUDENT MANAGEMENT SYSTEM
+                    <span class="section-heading-left glyphicon text-center">
+                        <img src="images/ourproject.svg" alt="project icon" class="w-75 h-75 rounded">
+                    </span>
+                    <span class="section-heading-right text-center text-md-center text-sm-center">
+                        Our Project: STUDENT MANAGEMENT SYSTEM
                     </span>
                 </div>
             </div>
@@ -168,8 +174,7 @@
                                     This website uses HTML, CSS-BOOTSTRAPS and JavaSCRIPT FOR FRONT-END DEVELOPMENT and PHP as a server-side-language.
                                     Database Management has been done with MySQL.
                                 </p>
-                                <a data-toggle="collapse" data-parent="#accordion2" href="#collapse3" style="text-decoration:underline; font-size:15px;">
-                                    SEE LESS</a>
+                                <a data-toggle="collapse" id="seeMore" onclick="seeMoreClicked();" data-parent="#accordion2" href="#collapse3" style="text-decoration:underline; font-size:15px;">SEE LESS</a>
                             </h4>
                         </div>
                         <div id="collapse3" class="panel-collapse collapse in bg-dark text-light">
@@ -179,10 +184,10 @@
                                         <div class="col-lg-12">
                                             <p>
                                                 Features:
-                                                <ul>
+                                                <ul style="list-style-type:none;">
                                                     <li>
-                                                        Student Management
-                                                        <ul>
+                                                        <u>Student Management</u>
+                                                        <ul style="list-style-type:square;">
                                                             <li>
                                                                 Add Student
                                                             </li>
@@ -206,9 +211,10 @@
                                                             </li>
                                                         </ul>
                                                     </li>
+                                                    <br>
                                                     <li>
-                                                        Library Management
-                                                        <ul>
+                                                        <u>Library Management</u>
+                                                        <ul style="list-style-type:square;">
                                                             <li>
                                                                 Create a library account
                                                             </li>
@@ -256,13 +262,23 @@
                 </div>
             </div>
         </div>
-        <!-- know our project section ends here -->
+        <!-- know our project section ends here-->
     </main>
     <?php
     include_once("footer.php");
     echo '<html><div class="text-white-50">All Iconc are made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com></a></div></html>';
     ?>
     <script src="js/bootstrap.min.js" type="text/js"></script>
+    <script>
+        function seeMoreClicked() {
+            var seemore = document.getElementById('seeMore');
+            if (seemore.innerHTML === "SEE LESS") {
+                seemore.innerHTML = "SEE MORE";
+            } else if (seemore.innerHTML === 'SEE MORE') {
+                seemore.innerHTML = 'SEE LESS';
+            }
+        }
+    </script>
 </body>
 
 </html>

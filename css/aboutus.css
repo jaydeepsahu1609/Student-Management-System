@@ -47,11 +47,60 @@ a {
     border-radius: 50px;
     border: 2px solid;
     border-color: transparent;
-    margin-right: 15px;
+    /* margin: 0px auto; */
 }
 
 .section-heading {
+    font-family: var(font-content);
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    /* align-self: center; */
     font-size: 30px;
     text-decoration: underline;
     text-decoration-color: inherit;
+}
+
+.section-heading-left {
+    flex: 30%;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    align-self: center;
+    border-radius: 50px;
+    border: 2px solid;
+    border-color: transparent;
+}
+
+.section-heading-right {
+    flex: 70%;
+    box-sizing: border-box;
+    overflow: hidden;
+    align-content: center;
+    padding-top: 100px;
+}
+
+@media only screen and (min-width:1255px) {
+    .section-heading {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width:840px) {
+    .section-heading {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width:560px) {
+    .section-heading {
+        font-size: 25px;
+        display: block;
+    }
+    .section-heading-left {
+        width: 100%;
+    }
+    .section-heading-right {
+        width: 100%;
+    }
 }
